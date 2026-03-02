@@ -1,0 +1,4 @@
+﻿  sem2.c
+E:\Facultate\An2Sem2\SDD\Project1\sem2.c(16,47): warning C4013: 'strlen' undefined; assuming extern returning int
+E:\Facultate\An2Sem2\SDD\Project1\sem2.c(17,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  Project1.vcxproj -> E:\Facultate\An2Sem2\SDD\Project1\x64\Debug\Sem2.exe
