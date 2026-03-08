@@ -80,6 +80,35 @@ void inserareDupaId(Nod** cap, Carte c)
     }
 }
 
+void inserareDupaPag(Nod** cap, Carte c)
+{
+    Nod* nou = (Nod*)malloc(sizeof(Nod));
+    nou->info = c;
+    nou->next = NULL;
+    if ((*cap) == NULL)
+    {
+        *cap = nou;
+    }
+    else
+    {
+        if (c.nrPagini < (*cap)->info.nrPagini)
+        {
+            nou->next = *cap;
+            *cap = nou;
+        }
+        else
+        {
+            Nod* aux = *cap;
+            while (aux->next != NULL && aux->next->info.nrPagini < c.nrPagini)
+            {
+                aux = aux->next;
+            }
+            nou->next = aux->next;
+            aux->next=nou->next
+        }
+    }
+}
+
 Carte citireCarte(FILE* file)
 {
     char buffer[30];
