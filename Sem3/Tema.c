@@ -104,7 +104,7 @@ void inserareDupaPag(Nod** cap, Carte c)
                 aux = aux->next;
             }
             nou->next = aux->next;
-            aux->next=nou->next
+            aux->next = nou;
         }
     }
 }
