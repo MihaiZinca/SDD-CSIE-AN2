@@ -1,0 +1,3 @@
+MiculPrint 132 35.2
+Nuntasii 123 43.2
+Confess 145 30
