@@ -1,0 +1,11 @@
+﻿  arbori_avl.c
+E:\Facultate\An2Sem2\SDD\Arbori AVL\arbori_avl.c(162,51): warning C4305: 'function': truncation from 'double' to 'float'
+E:\Facultate\An2Sem2\SDD\Arbori AVL\arbori_avl.c(163,50): warning C4305: 'function': truncation from 'double' to 'float'
+E:\Facultate\An2Sem2\SDD\Arbori AVL\arbori_avl.c(164,51): warning C4305: 'function': truncation from 'double' to 'float'
+E:\Facultate\An2Sem2\SDD\Arbori AVL\arbori_avl.c(165,51): warning C4305: 'function': truncation from 'double' to 'float'
+E:\Facultate\An2Sem2\SDD\Arbori AVL\arbori_avl.c(166,53): warning C4305: 'function': truncation from 'double' to 'float'
+E:\Facultate\An2Sem2\SDD\Arbori AVL\arbori_avl.c(167,52): warning C4305: 'function': truncation from 'double' to 'float'
+E:\Facultate\An2Sem2\SDD\Arbori AVL\arbori_avl.c(168,50): warning C4305: 'function': truncation from 'double' to 'float'
+E:\Facultate\An2Sem2\SDD\Arbori AVL\arbori_avl.c(169,52): warning C4305: 'function': truncation from 'double' to 'float'
+E:\Facultate\An2Sem2\SDD\Arbori AVL\arbori_avl.c(170,53): warning C4305: 'function': truncation from 'double' to 'float'
+  Arbori AVL.vcxproj -> E:\Facultate\An2Sem2\SDD\Arbori AVL\x64\Debug\Arbori AVL.exe
