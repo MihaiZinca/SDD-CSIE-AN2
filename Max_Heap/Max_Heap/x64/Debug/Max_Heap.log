@@ -1,0 +1,4 @@
+﻿  Max_Heap.c
+C:\Facultate\An2_Sem2\SDD\Max_Heap\Max_Heap\Max_Heap.c(32,42): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Facultate\An2_Sem2\SDD\Max_Heap\Max_Heap\Max_Heap.c(33,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  Max_Heap.vcxproj -> C:\Facultate\An2_Sem2\SDD\Max_Heap\x64\Debug\Max_Heap.exe
