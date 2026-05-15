@@ -122,7 +122,7 @@ int calculInaltimeArbore(Nod* rad)
 int diferentaInaltimeSubarbori(Nod* rad)
 {
 	if (rad)
-		return diferentaInaltimeSubarbori(rad->stanga) - diferentaInaltimeSubarbori(rad->dreapta);
+		return calculInaltimeArbore(rad->stanga) - calculInaltimeArborei(rad->dreapta);
 	return 0;
 }
 
