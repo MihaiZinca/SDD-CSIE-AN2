@@ -62,9 +62,11 @@ void heapify(MaxHeap heap, int index)
 			Carte aux = heap.vector[pozMax];
 			heap.vector[pozMax] = heap.vector[index];
 			heap.vector[index] = aux;
+
+			if (pozMax <= heap.size / 2 - 1)
+				heapify(heap, pozMax);
 		}
-		if (pozMax <= heap.size / 2 - 1)
-			heapify(heap, pozMax);
+		
 	}
 }
 
