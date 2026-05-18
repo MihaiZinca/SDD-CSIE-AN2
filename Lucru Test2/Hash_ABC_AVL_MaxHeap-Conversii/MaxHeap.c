@@ -80,10 +80,10 @@ void extragere(MaxHeap* heap, Carte* c)
 	heapify(*heap, 0);
 }
 
-void dezalocareMaxHeap(MaxHeap heap)
+void dezalocareMaxHeap(MaxHeap* heap)
 {
-	for (int i = 0; i < heap.size; i++)
-		free(heap.vector[i].titlu);
-	free(heap.vector);
-	heap.size = 0;
+	for (int i = 0; i < heap->size; i++)
+		free(heap->vector[i].titlu);
+	free(heap->vector);
+	heap->size = 0;
 }

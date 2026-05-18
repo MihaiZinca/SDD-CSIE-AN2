@@ -362,8 +362,9 @@ void abcToHeap(Nod* abc, MaxHeap* heap) //la fel si pt avl
 		abcToHeap(abc->stanga, heap);
 		abcToHeap(abc->dreapta, heap);
 	}
-	for (int i = heap->size / 2 - 1; i >= 0; i--)
-		heapify(*heap, i);
+	//in main
+	//for (int i = heap->size / 2 - 1; i >= 0; i--)
+		//heapify(*heap, i);
 }
 
 void MaxHeapToABC(MaxHeap heap, Nod** abc) // la fel si pt avl
